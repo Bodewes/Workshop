@@ -1,6 +1,7 @@
 ﻿using System;
 using System.Collections.Generic;
 using System.Linq;
+using System.Net;
 using System.Net.Http;
 using System.Threading.Tasks;
 using Newtonsoft.Json;
@@ -27,6 +28,12 @@ namespace OVDemo
             HttpClient client = new HttpClient();
             client.DefaultRequestHeaders.Add("x-api-key", API_KEY);
             var response = await client.GetAsync("https://ns-api.nl/reisinfo/api/v2/stations");
+
+            if (response.StatusCode != HttpStatusCode.OK){
+                Console.WriteLine($"Oopsie Woepsie, dat ging niet lekker: {response.ReasonPhrase}");
+                return;
+            }
+
             var json = await response.Content.ReadAsStringAsync();
 
             //Console.WriteLine(json);
