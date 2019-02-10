@@ -28,8 +28,12 @@
     `PS> dotnet new console`
 2. Methodes, (auto)properties, getters, setters, constructor, readonly, publice/private/protected/internal.
   
+## 04 - Datastructuren en Generics
 
-  
+1. En welke zijn die grote steden dan?
+2. Dictionary, Stack, Queue
+
+
 ## Rerenties
 
 - <https://docs.microsoft.com/en-us/dotnet/csharp/index>
