@@ -36,13 +36,13 @@
 ## 05 - Hello Linq
 
 1. Probeer meer ingewikkelde queries uit.
-2. Wanneer worden functies in where/select daadwerklijk uitgevoerd?
-3. First vs Single vs FirstOrDefault vs SingleOrDefault?
+2. Wanneer worden de functies in where/select daadwerklijk uitgevoerd?
+3. Wat is het verschil tussen First vs Single vs FirstOrDefault vs SingleOrDefault?
 
 ## 06 - Hello Packages
 
 1. `dotnet add package Newtonsoft.Json`
-2. Speel met Json serializatie, wat doet het met onbekende elementen?
+2. Speel met Json serializatie, wat doet het met onbekende elementen in de json en met private members?
 3. <https://www.nuget.org/>
 
 ## 07 - Hello Web
@@ -55,10 +55,13 @@
 
 1. `dotnet new MVC`
 2. Run en surf
+3. Meer op <https://docs.microsoft.com/en-us/aspnet/>
 
+## 09 - Hello World Domination
 
+1. Doe een pull request (binnen 14 dagen) en win grandioze prijzen. Of niet :) Jury is subjectief en omkoopbaar.
 
-## Rerenties
+## Referenties
 
 - <https://docs.microsoft.com/en-us/dotnet/csharp/index>
 - <https://docs.microsoft.com/en-us/dotnet/csharp/tour-of-csharp/>
