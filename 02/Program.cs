@@ -1,6 +1,6 @@
 ﻿using System;
 
-namespace _02
+namespace Basics
 {
     class Program
     {
@@ -39,9 +39,9 @@ namespace _02
                 j--;
             }
 
-            var s = "Workshop";
-            foreach(var c in s){
-                Console.WriteLine(c);
+            var woord = "Workshop";
+            foreach(var letter in woord){
+                Console.WriteLine(letter);
             }
         }
     }

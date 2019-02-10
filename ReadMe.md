@@ -22,6 +22,12 @@
     `PS> dotnet new console`
 2. Probeer verschillende combinaties van types uit.
 
+## 03 - Classes
+
+1. Maak een nieuw Console app aan:  
+    `PS> dotnet new console`
+2. Methodes, (auto)properties, getters, setters, constructor, readonly, publice/private/protected/internal.
+  
 
   
 ## Rerenties
