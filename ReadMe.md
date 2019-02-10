@@ -45,10 +45,18 @@
 2. Speel met Json serializatie, wat doet het met onbekende elementen?
 3. <https://www.nuget.org/>
 
-## 07 - Hello Web 
+## 07 - Hello Web
 
-1. HttpClient
+1. Gebruik de HttpClient uit System.Net
 2. Of via package `RestClient` (<https://www.nuget.org/packages/RestSharp/>)
+3. Maak een NS-account (of die heb je al met je OV-Chipkaart) en log in op <https://developer.ns.nl/docs>. Daar kan je een API-krijgen.
+
+## 08 - Hello MVC
+
+1. `dotnet new MVC`
+2. Run en surf
+
+
 
 ## Rerenties
 
