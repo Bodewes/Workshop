@@ -22,17 +22,33 @@
     `PS> dotnet new console`
 2. Probeer verschillende combinaties van types uit.
 
-## 03 - Classes
+## 03 - Hello Classes
 
 1. Maak een nieuw Console app aan:  
     `PS> dotnet new console`
 2. Methodes, (auto)properties, getters, setters, constructor, readonly, publice/private/protected/internal.
   
-## 04 - Datastructuren en Generics
+## 04 - Hello Datastructuren en Generics
 
 1. En welke zijn die grote steden dan?
 2. Dictionary, Stack, Queue
 
+## 05 - Hello Linq
+
+1. Probeer meer ingewikkelde queries uit.
+2. Wanneer worden functies in where/select daadwerklijk uitgevoerd?
+3. First vs Single vs FirstOrDefault vs SingleOrDefault?
+
+## 06 - Hello Packages
+
+1. `dotnet add package Newtonsoft.Json`
+2. Speel met Json serializatie, wat doet het met onbekende elementen?
+3. <https://www.nuget.org/>
+
+## 07 - Hello Web 
+
+1. HttpClient
+2. Of via package `RestClient` (<https://www.nuget.org/packages/RestSharp/>)
 
 ## Rerenties
 
